@@ -1,1 +1,12 @@
-# CurrencyStocksConverter
+# Currency and Stocks converter
+### Video Demo: https://youtu.be/ObqbogrkSa4
+### Description:
+My project is a currency and stockers converter. It allows the user to convert an amount of money in a currency to another currency. It then allows the user to enter a stock of their interest. The program will then output the amount of that stock you can buy at closing price. Also, I used pandas and plotly to receive data, convert the values to the user's currency, and display the chart of the stock's last market day.
+
+My project is useful for users who desire quick and up-to-date values of stocks. Not only does it display the stock chart, but it also will convert the values of shares to the users' desired currency. The chart has tools that users would typically see while browsing stock charts. They can choose to display the last 15 minutes, 45 minutes, 3 hours, etc. Hovering over a candlestick shows the stock's open, high, low, and closing prices.
+
+### List of Valid Currencies:
+['USD', 'AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'FOK', 'GBP', 'GEL', 'GGP', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HRK', 'HTG', 'HUF', 'IDR', 'ILS', 'IMP', 'INR', 'IQD', 'IRR', 'ISK', 'JEP', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KID', 'KMF', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SLL', 'SOS', 'SRD', 'SSP', 'STN', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TVD', 'TWD', 'TZS', 'UAH', 'UGX', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XDR', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW', 'ZWL']
+
+### List of Stock Examples(User can try other stocks not listed; just examples):
+['AAPL', 'AMC', 'AMD','AMZN', 'GOOGL', 'GME', 'LCID', 'MSFT', 'NVDA', 'Tesla', 'UBER']
